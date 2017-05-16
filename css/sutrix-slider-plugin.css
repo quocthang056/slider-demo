@@ -1,0 +1,115 @@
+﻿.sutrix-slider-images ul {
+    padding: 0;
+}
+
+.sutrix-slider-images ul li, .sutrix-slider-images ul li img, .sutrix-slider-controls {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.sutrix-slider-images ul li, .sutrix-slider-bottom-text li
+{
+    list-style-type: none;
+}
+.sutrix-slider-images ul li {
+    display:none;
+}
+
+.sutrix-slider-controls {
+    display: block;
+}
+
+.sutrix-slider-controls img {
+    width: 5%;
+    margin-top:20%;
+}
+
+.sutrix-slider-controls-left, .sutrix-slider-controls-right {
+    cursor:pointer;
+}
+
+.sutrix-slider-controls-left {
+    float: left;
+    margin-left: 3%;
+
+}
+
+.sutrix-slider-controls-right{
+    float: right;
+    margin-right: 3%;
+}
+
+.sutrix-slider-bottom, .sutrix-slider-bottom-text, .sutrix-slider-bottom-point {
+    display:block;
+    position:absolute;
+}
+
+.sutrix-slider-bottom, .sutrix-slider-bottom-text {
+    bottom: 0;
+    left: 0;
+}
+
+.sutrix-slider-bottom
+{
+    background-color:rgba(0, 0, 0, 0.8);
+    width:100%;
+    height:10%;
+    position:absolute;
+}
+
+.sutrix-slider-bottom-text {
+    width:70%;
+}
+
+.sutrix-slider-bottom-text li {
+    font-size: 200%;
+    color:#fff;
+    position:absolute;
+    bottom:0;
+    left:0;
+    margin-left:3%;
+    display: none;
+}
+
+.sutrix-slider-bottom-text p {
+    margin: 0px;
+}
+
+.sutrix-slider-bottom-point {
+    width:30%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    border-left: solid gray;
+}
+
+.sutrix-slider-bottom-point ul {
+    margin: 0px;
+    height: 100%;
+}
+
+.sutrix-slider-bottom-point li {
+    position: relative;
+    list-style:none;
+    display:block;
+    background-color:#9A9893;
+    color: white;
+    width: 12%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 3%;
+    float:left;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    cursor:pointer;
+}
+
+.sutrix-slider-bottom-point li span {
+    position:absolute;
+    top: 30%;
+    left: 40%;
+}

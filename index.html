@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider Demo</title>
+    <link rel="stylesheet" href="css/sutrix-slider-plugin.css" />
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/sutrix-slider-plugin.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#sutrix_slider").sutrixSlider({
+                width: '70%',
+                height: '400px',
+                play: {
+                    active: false,
+                    interval: 3000
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+    <div id="sutrix_slider" style="left: 15%">
+        <div class="sutrix-slider-images">
+            <ul>
+                <li><img src="images/1.jpg"></li>
+                <li><img src="images/2.jpg"></li>
+                <li><img src="images/3.jpg"></li>
+                <li><img src="images/4.jpg"></li>
+            </ul>
+        </div>
+        <div class="sutrix-slider-controls">
+            <img class="sutrix-slider-controls-left" src="images/left.png"/>
+            <img class="sutrix-slider-controls-right" src="images/right.png"/>
+        </div>
+        <div class="sutrix-slider-bottom">
+            <div class="sutrix-slider-bottom-text">
+                <ul>
+                    <li><p>Nature</p></li>
+                    <li><p>Road</p></li>
+                    <li><p>Lake</p></li>
+                    <li><p>Beach</p></li>
+                </ul>
+            </div>
+            <div class="sutrix-slider-bottom-point"></div>
+        </div>
+    </div>
+</body>
+</html>
