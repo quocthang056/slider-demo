@@ -61,7 +61,7 @@
     margin-right: 10px;
 }
 .news, .partner {
-    min-height: 450px;
+    min-height: 380px;
     padding-left: 15px;
 }
 .welcome-content {
@@ -82,17 +82,20 @@
     position: relative;
     width: 100%;
 }
-.partner-middle img{
+.partner-middle .partner-image{
     margin: 10px;
-}
-.partner-middle, .partner-middle img, .partner-control, .partner-control img {
-    position: absolute;
-    top: 0;
-    left: 0;
+    width: 80%;
+    margin-left: 9%;
 }
 
 .partner-left, .partner-right {
-    width: 7%;
+    position: absolute;
+    display: block;
+    top: 35%;
+    width: 30px;
+}
+.partner-right{
+    right: 3%;
 }
 .news .col-md-7 {
     padding: 0px;
