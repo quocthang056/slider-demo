@@ -125,3 +125,38 @@
     float: right;
     margin-right: 10px;
 }
+
+.footer-top {
+    margin-top: 20px;
+}
+.footer-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer-top p {
+    font-size: 12px;
+}
+.footer-contact b {
+    float: left;
+}
+.footer-newsletter input {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 220px;
+    background-color: rgb(245,244,242);
+}
+.footer-bottom ul {
+    padding: 0px;
+}
+.footer-bottom ul li {
+    display: inline-block;
+    border-right: 1px solid;
+    padding: 5px;
+}
+.footer-bottom ul a {
+    color: black;
+}
+.footer-bottom p {
+    float: right;
+}
