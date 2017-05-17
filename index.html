@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Slider Demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/sutrix-slider-plugin.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/sutrix-slider-plugin.js"></script>
 
     <script>
         $(document).ready(function(){
             $("#sutrix_slider").sutrixSlider({
-                width: '70%',
+                width: '100%',
                 height: '400px',
                 play: {
                     active: false,
@@ -21,30 +23,235 @@
     </script>
 </head>
 <body>
-    <div id="sutrix_slider" style="left: 15%">
-        <div class="sutrix-slider-images">
-            <ul>
-                <li><img src="images/1.jpg"></li>
-                <li><img src="images/2.jpg"></li>
-                <li><img src="images/3.jpg"></li>
-                <li><img src="images/4.jpg"></li>
+    <div class="container">
+        <div class="row header">
+            <div class="col-md-4">
+                <img src="images/logo.png">
+            </div>
+            <div class="col-md-8">
+                <div>
+                    <input type="text">
+                    <span class="glyphicon glyphicon-search"></span>
+                </div>
+                <div>
+                    <img src="">
+                    <img src="">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+        <div class="row navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">SERVICES</a>
+                </li>
+                <li>
+                    <a href="#">NEWS & EVENTS</a>
+                </li>
+                <li>
+                    <a href="#">GALLERY</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT US</a>
+                </li>
+                <li>
+                    <a href="#">FAQs</a>
+                </li>
             </ul>
         </div>
-        <div class="sutrix-slider-controls">
-            <img class="sutrix-slider-controls-left" src="images/left.png"/>
-            <img class="sutrix-slider-controls-right" src="images/right.png"/>
-        </div>
-        <div class="sutrix-slider-bottom">
-            <div class="sutrix-slider-bottom-text">
-                <ul>
-                    <li><p>Nature</p></li>
-                    <li><p>Road</p></li>
-                    <li><p>Lake</p></li>
-                    <li><p>Beach</p></li>
-                </ul>
+        <div class="row banner">
+            <div class="col-md-12">
+                <div id="sutrix_slider">
+                    <div class="sutrix-slider-images">
+                        <ul>
+                            <li><img src="images/1.jpg"></li>
+                            <li><img src="images/2.jpg"></li>
+                            <li><img src="images/3.jpg"></li>
+                            <li><img src="images/4.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="sutrix-slider-controls">
+                        <img class="sutrix-slider-controls-left" src="images/left.png"/>
+                        <img class="sutrix-slider-controls-right" src="images/right.png"/>
+                    </div>
+                    <div class="sutrix-slider-bottom">
+                        <div class="sutrix-slider-bottom-text">
+                            <ul>
+                                <li><p>Nature</p></li>
+                                <li><p>Road</p></li>
+                                <li><p>Lake</p></li>
+                                <li><p>Beach</p></li>
+                            </ul>
+                        </div>
+                        <div class="sutrix-slider-bottom-point"></div>
+                    </div>
+                </div>
             </div>
-            <div class="sutrix-slider-bottom-point"></div>
+        </div>
+        <div class="row welcome">
+            <div class="col-md-8">
+                <h1 class="title-module">Welcome to our Web Site !</h1>
+                <div class="welcome-content">
+                    Lorem Ipsum consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Lorem ipsum dolor sit amet, conseter sadipscing elitr,
+                    sed diam ipsum dolor sit amet, conseter sadipscing elitr, sed diam Lorem Ipsum consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    invidunt ut labore Lorem ipsum dolor sit amet, conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter sadipscing elitr, sed diam invidunt
+                    ut labore Lorem ipsum dolor sit amet, conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter conseter sit... <a href="#">View more</a>
+                </div>
+            </div>
+            <div class="col-md-4 welcome-left-image">
+                <img src="images/left-welcome.png">
+            </div>
+        </div>
+        <div class="row news-partner">
+            <div class="col-md-6 col-xs-12">
+                <div class="news">
+                    <div class="row news-title">
+                        <h3 class="title-module">NEWS & EVENTS</h3>
+                        <a href="#">View more</a>
+                    </div>
+                    <div class="row news-content">
+                        <div class="col-md-5 news-image"><img src="images/left-welcome.png"></div>
+                        <div class="col-md-7 news-content">
+                            <div class="row">
+                                <b class="title-module">Consetetur sadipscing nonumy elitr...</b>
+                                <p>18.12.2013</p>
+                            </div>
+                            <div class="row">
+                                Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Consetetur sadipscing elitr,  diam nonumy eirmod tempor invidunt ut labore...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row news-content">
+                        <div class="row">
+                            <b class="title-module">Consetetur sadipscing elitr Consetetur sadipscing elitr Consete...</b>
+                            <p>18.12.2013</p>
+                        </div>
+                        <div class="row">
+                            Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur...
+                        </div>
+                    </div>
+                    <div class="row news-content">
+                        <div class="row">
+                            <b class="title-module">Consetetur sadipscing elitr Consetetur sadipscing elitr Consete...</b>
+                            <p>18.12.2013</p>
+                        </div>
+                        <div class="row">
+                            Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <div class="partner">
+                    <div class="row">
+                        <h3 class="title-module">PARTNERS</h3>
+                    </div>
+                    <div class="row partner-content">
+                        <div class="col-md-1 partner-left">
+                            <img src="images/left.png">
+                        </div>
+                        <div class="col-md-10 partner-middle">
+                            <div class="row">
+                                <img src="images/demo-1.png">
+                                <img src="images/demo-2.png">
+                                <img src="images/demo-3.png">
+                            </div>
+                            <div class="row">
+                                <img src="images/demo-4.png">
+                                <img src="images/demo-5.png">
+                                <img src="images/demo-6.png">
+                            </div>
+                        </div>
+                        <div class="col-md-1 partner-right"><img src="images/right.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="row footer-top">
+                <div class="col-md-4">
+                    <div class="row"><b>Contact US</b></div>
+                    <div class="row">
+                        <b>Address:</b>
+                        <p>72/4 Truong Quoc Dung Street, Ward 10, Phu Nhuan District, Ho Chi Minh City, Vietnam</p>
+                    </div>
+                    <div class="row">
+                        <b>Tel:</b>
+                        <p>+84 8 3997 5901</p>
+                    </div>
+                    <div class="row">
+                        <b>Fax:</b>
+                        <p>+84 8 3997 5900</p>
+                    </div>
+                    <div class="row">
+                        <b>Email:</b>
+                        <p>contact-us@sutrixmedia.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <b>QUICK LINKS</b>
+                    <p>Contact Us</p>
+                    <p>Latest News</p>
+                    <p>FAQs</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="row"><h3 class="title-module">NEWSLETTER</h3></div>
+                    <div class="row">
+                        <input type="text" placeholder="Enter Email...">
+                        <img src="images/sign-in.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <div class="col-md-7">
+                    <ul>
+                        <li><a href="#">Home Page</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">News & Events</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <p>Copyright © 2014 Template Demo All Rights Reserved.</p>
+                </div>
+            </div>
         </div>
     </div>
+
+
+
+    <!--<div id="sutrix_slider" style="left: 15%">-->
+        <!--<div class="sutrix-slider-images">-->
+            <!--<ul>-->
+                <!--<li><img src="images/1.jpg"></li>-->
+                <!--<li><img src="images/2.jpg"></li>-->
+                <!--<li><img src="images/3.jpg"></li>-->
+                <!--<li><img src="images/4.jpg"></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <!--<div class="sutrix-slider-controls">-->
+            <!--<img class="sutrix-slider-controls-left" src="images/left.png"/>-->
+            <!--<img class="sutrix-slider-controls-right" src="images/right.png"/>-->
+        <!--</div>-->
+        <!--<div class="sutrix-slider-bottom">-->
+            <!--<div class="sutrix-slider-bottom-text">-->
+                <!--<ul>-->
+                    <!--<li><p>Nature</p></li>-->
+                    <!--<li><p>Road</p></li>-->
+                    <!--<li><p>Lake</p></li>-->
+                    <!--<li><p>Beach</p></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="sutrix-slider-bottom-point"></div>-->
+        <!--</div>-->
+    <!--</div>-->
 </body>
 </html>
